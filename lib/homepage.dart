@@ -8,12 +8,13 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Container(
+          padding: EdgeInsets.all(20),
           height: 200,
           width: 200,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(30),
-            color: Colors.deepPurple,
+            border: Border.all(color: Colors.black, width: 5),
           ),
+          child: Text('Hello my guy'),
         ),
       ),
     );
