@@ -14,7 +14,12 @@ class HomePage extends StatelessWidget {
           decoration: BoxDecoration(
             border: Border.all(color: Colors.black, width: 5),
           ),
-          child: Text('Hello my guy'),
+          child: Text(
+            'Hello my guy',
+            style: TextStyle(
+              fontSize: 20,
+            ),
+          ),
         ),
       ),
     );
