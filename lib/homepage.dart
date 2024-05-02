@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -25,16 +26,21 @@ class HomePage extends StatelessWidget {
       ),*/
       body: Column(
         children: [
-          Container(
-            height: 100,
-            color: Colors.deepPurple,
+          Expanded(
+            child: Container(
+              color: Colors.deepPurple,
+            ),
           ),
           Expanded(
             child: Container(
-              height: 150,
               color: Colors.deepOrange,
             ),
-          )
+          ),
+          Expanded(
+            child: Container(
+              color: Colors.deepOrangeAccent,
+            ),
+          ),
         ],
       ),
     );
