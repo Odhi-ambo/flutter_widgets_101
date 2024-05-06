@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets_101/first_page.dart';
-import 'package:flutter_widgets_101/home_page.dart';
 
 void main() {
   runApp(const MyApp());
